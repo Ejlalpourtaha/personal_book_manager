@@ -20,7 +20,7 @@ def display_books(books_list):
     """Display the list of books with their index."""
     print("\n--- Your Books List ---")
     if not books_list:
-        print("No books found.")
+        print("No books found. Please add some books first.")
     else:
         for index, book in enumerate(books_list, start=1):
             print(f"{index}. {book}")
